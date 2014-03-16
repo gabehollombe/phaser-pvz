@@ -39,7 +39,7 @@ module.exports =
     new Plant(this, @game.input.activePointer.position) if not @plantAt(row, col)
 
   plantAt: (row, col) ->
-    (plant for plant in @game.plants.children when plant.row == row and plant.col == col)[0]
+    (sprite for sprite in @game.plants.children when sprite.plant.row == row and sprite.plant.col == col)[0]
 
   getCellOrigin: (x, y) ->
     x: Math.floor(x / @game.CELL_WIDTH) * @game.CELL_WIDTH + 10
