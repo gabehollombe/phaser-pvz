@@ -1,5 +1,5 @@
 {
-  "name": "Phaser PVZ Example",
+  "name": "PhaserPVZExample",
   "version": "0.0.1",
   "description": "An example PVZ tech demo written in Phaser",
   "main": "deploay/js/Game.js",
